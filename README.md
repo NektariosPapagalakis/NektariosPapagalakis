@@ -6,7 +6,7 @@ Undergraduate student at University of Macedonia
 
 I have been learning to code for the last three years, along with my studies I have developed some projects of my own and I have also written some pieces of code as a freelanser for some webpages.
 
-*   🌍  I'm based in Thessaloliki, Greece
+*   🌍  I'm based in Thessaloliki, Greece 
 *   🖥️  See my portfolio at [My Protfolio](https://nektariospapagalakis.github.io/)
 *   ✉️  You can contact me at [nektarios00007@gmail.com](mailto:nektarios00007@gmail.com)
 *   🤝  I'm open to collaborating on a large spectrum of projects, even whith tecnologies and programing languages that I have not yet work with.
