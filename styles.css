@@ -1,0 +1,47 @@
+body{
+    background-color: #222222;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.profile_img{
+    height: 80vh;
+    width: auto;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter:drop-shadow(10px 2px 20px rgb(1,1,1));
+  margin: 0;
+    padding: 0;
+}
+
+nav{
+margin: 0;
+    padding: 0;
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 div {
+  font-size: 100px;
+  color: #FFFFFF;
+  font-family: 'Corpta DEMO', sans-serif; /* Added a fallback */
+}
+
+@font-face {
+  font-family: 'RampiroDEMO';
+  /* This path points to the file in your 'corpta' folder */
+  src: url('.rampiro/RampiroDEMO.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
