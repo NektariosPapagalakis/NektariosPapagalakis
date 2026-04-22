@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <nav><button>d</button></nav>
-      <p id="currentTime"></p>
-      <div class="section1">
-        <img class="profile_img" src="profile.png">
-        <div>Hi, I am Nektarios</div>
 
-      </div>
-      <script src="script.js"></script>
-  </body>
+<head>
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+</head>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<body>
+  <nav><button>d</button></nav>
+  <div class="section1">
+    <img class="profile_img" src="profile3.png">
+    <div class="sub_section_1">
+      <div class="hello_div">Hi, I am Nektarios</div>
+      <div class="link-container">
+          <div class="link">
+            <div class="icon-box"><i data-lucide="mail"></i></div>
+            <div class="text-content">
+              <span class="label">EMAIL</span>
+              <span class="value">nektarios00007@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="link">
+            <div class="icon-box"><i data-lucide="phone"></i></div>
+            <div class="text-content">
+              <span class="label">PHONE</span>
+              <span class="value">+30 6948422468</span>
+            </div>
+          </div>
+
+          <div class="link">
+            <div class="icon-box"><i data-lucide="location"></i></div>
+            <div class="text-content">
+              <span class="label">LOCATION</span>
+              <span class="value">THESSALONIKI, GREECE</span>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+
 </html>
